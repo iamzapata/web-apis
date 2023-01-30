@@ -3,6 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "keywords": [
+    "react",
+    "storybook",
+    "vite",
+    "vitest",
+    "typescript",
+    "web-apis",
+    "hooks testing",
+    "storybook testing",
+    "storybook vite",
+    "storybook play",
+    "storybook interactions"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
