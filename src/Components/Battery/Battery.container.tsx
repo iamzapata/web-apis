@@ -8,8 +8,6 @@ const BatteryContainer = () => {
   const isCharged = level >= 0.9
   const isCharging = charging
 
-  console.log("%c batteryStatus", "color: #c80000", batteryStatus)
-
   return <Battery isCharged={isCharged} isCharging={isCharging} level={level} />
 }
 
