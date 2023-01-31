@@ -1,6 +1,6 @@
 import { Percent, IconProps } from "react-feather"
 
-const PercentIcon = (props: IconProps) => {
+const PercentIcon = ({ ...props }: IconProps) => {
   return <Percent {...props} />
 }
 
