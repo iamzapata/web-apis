@@ -1,4 +1,4 @@
-import { BatteryIcon } from "../Icons"
+import { BatteryIcon } from "../../Icons"
 import { BatteryLevel } from "../BatteryLevel"
 import styles from "./Battery.module.css"
 

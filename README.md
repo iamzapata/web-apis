@@ -6,3 +6,4 @@
 - storybook interaction testing
 - hook async tests
 - web battery API
+- Animations using the Element.animate() API

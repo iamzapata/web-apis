@@ -5,8 +5,7 @@ interface LoaderIconProps extends IconProps {
   isLoading?: boolean
   ref?: RefObject<SVGElement>
 }
-const LoaderIcon = ({ ...props }: LoaderIconProps) => {
-  const { isLoading } = props
+const LoaderIcon = ({ isLoading, ...props }: LoaderIconProps) => {
   const iconRef = useRef<SVGElement>(null)
 
   useLayoutEffect(() => {
